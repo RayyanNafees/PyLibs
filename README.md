@@ -3,7 +3,7 @@
 ## Explore Pythonic environmen while coding JS!
 
 > These libs are browser-specific. It is built and implemented for browser platforms. 
-> Not to be used for OS processing. However that functionality is added based on nodeJS in [PyNode]().
+> Not to be used for OS processing. However that functionality is added based on nodeJS in [PyNode](https://github.com/RayyanNafees/PyNode).
 
 ### Pythonifying libs:
  * **Pythonify**: Adds pyhonic functionalities to existing JS objects
@@ -24,3 +24,5 @@
  * this
  * anti-gravity
  * hashlib
+
+> Checkout the docs at [PyScript Blog](pyscript.github.io)
