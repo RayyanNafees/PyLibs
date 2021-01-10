@@ -1,0 +1,9 @@
+export const ArrayType = function() {};
+export const __doc__ = function() {};
+export const __loader__ = function() {};
+export const __name__ = function() {};
+export const __package__ = function() {};
+export const __spec__ = function() {};
+export const _array_reconstructor = function() {};
+export const array = function() {};
+export const typecodes = function() {};

@@ -1,0 +1,11 @@
+{
+    "compile-hero.disable-compile-files-on-did-save-code": true,
+    "python.dataScience.jupyterServerURI": "local",
+    "python.pythonPath": "C:\\Users\\Rayyan Nafees\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}
