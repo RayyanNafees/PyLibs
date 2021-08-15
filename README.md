@@ -25,4 +25,4 @@
  * anti-gravity
  * hashlib
 
-> Checkout the docs at [PyScript Blog](pyscript.github.io)
+> Checkout the docs at [PyScript Blog](https://rayyannafees.github.io/pyscript)
