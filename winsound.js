@@ -24,6 +24,25 @@ function beep(duration, frequency, volume, type, callback) {
     oscillator.start(audioCtx.currentTime);
     oscillator.stop(audioCtx.currentTime + ((duration || 500) / 1000));
 }
+
+const abeep = (duration, frequency, volume, type, callback) =>new Promise((res, rej) =>{
+     var oscillator = audioCtx.createOscillator();
+    var gainNode = audioCtx.createGain();
+
+    oscillator.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+
+    if (volume) { gainNode.gain.value = volume; }
+    if (frequency) { oscillator.frequency.value = frequency; }
+    if (type) { oscillator.type = type; }
+    if (callback) { oscillator.onended = callback; }
+
+    oscillator.start(audioCtx.currentTime);
+    oscillator.stop(audioCtx.currentTime + ((duration || 500) / 1000));
+    res(oscillator)
+})
 //_________________________________
 
 const Beep = (duration, frequency) => beep(duration, frequency);
+
+const asyncBeep = async (duration, frequency) => await beep(duration, frequency);
